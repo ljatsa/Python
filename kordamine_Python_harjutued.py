@@ -107,12 +107,3 @@
 # print(kellaaeg)
 
 
-
-
-
-
-
-
-
-
-

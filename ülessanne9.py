@@ -26,7 +26,7 @@
 #         print("TAK")
 #         
 
-
+#9.6
 # Kuva nimekirjast unikaalsed nimed:
 nimed = ['Martin', 'Tõnu', 'Andres', 'Tõnu', 'Andres', 'Andres', 'Andres', 'Tõnu', 'Marko', 'Mari', 'Jüri', 'Liis', 'Marko', 'Piret', 'Anu']
 puhas = []
