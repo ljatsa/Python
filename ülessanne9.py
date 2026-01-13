@@ -81,36 +81,90 @@ import random
 # 
 # print(punktid)
 
+#1
+arv = 5
+for i in range(1,6):
+    print(" " * i + "*" * arv)
+    arv-=1
 
+#2
+arv = 5
+for i in range(1,6):
+    print("*" * arv)
+    arv-=1
+#
 
-# ülesanne 11.1
- arv = 5
- for i in range(1,6):
-     print(" " * i + "*" * arv)
-     arv-=1
-     
+#3
+arv = 5
+for i in range(1,6):
+    print(" " * arv + "*" * i)
+    arv-=1
+
+#4
+for i in range(1,6):
+    print("*" * i)
     
     
+# ülesanne 12
+summa = 0
+even_nums = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 3, 32, 34, 36, 38]
+for i in even_nums:
+    if i%2==0:
+        summa+=i
+    else:
+        break
     
-# ülesanne 11.2
- arv = 5
- for i in range(1,6):
-     print("*" * arv)
-     arv-=1
+print(summa)
 
-# ülesanne 11.3
 
- for i in range(1,6):
-     print(" " * arv + "*" * i)
-     arv-=1
+
+# Ülesanne 13
+print("")
+range_summa = 0
+range_kokku = 0
+hind = 0
+ev_data = [
+    ['vehicle', 'range', 'price'],
+    ['Tesla Model Y Long Range', '330', '58990'],
+    ['Volkswagen ID.4 Pro', '260', '39995'],
+    ['Ford Mustang Mach-E', '300', '42995'],
+    ['Audi e-tron GT', '238', '102700'],
+    ['Nissan Leaf', '149', '27400'],
+    ['BMW iX xDrive50', '324', '83995'],
+    ['Polestar 2', '265', '45500'],
+    ['Kia EV6 Long Range', '310', '47795'],
+    ['Mercedes-Benz EQS 450+', '350', '102310'],
+    ['Hyundai Kona Electric', '258', '37400']
+]
+# kuvab autod tulpades
+for i in ev_data:
+    print(f"{i[0]:26} {i[1]:6} {i[2]:8}")
+
+# keskmine ulatus ja hind
+for i in range(1,len(ev_data)):
+    range_summa+=int(ev_data[i][1])
+    range_kokku+=1
+    hind+=int(ev_data[i][2])
+    if int(ev_data[i][1]) > 300:
+        print(ev_data[i][0])
+        
     
 
-# ülesanne 11.4
-  for i in range(1,6):
-      print("*" * i)
+print(f"Keskmine ulatus: {range_summa/range_kokku}")
+print(f"Keskmine summa: {hind/range_kokku}")
+print("-----------")
 
 
-
+max_koef = 100000000
+parim_auto = ""
+for i in range(1,len(ev_data)):
+    koef = int(ev_data[i][2])/int(ev_data[i][1])
+    if koef<max_koef:
+        max_koef = koef
+        parim_auto = ev_data[i][0]
+        
+print(max_koef)
+print(parim_auto)
 
 
 
