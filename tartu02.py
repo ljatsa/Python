@@ -1,0 +1,8 @@
+#Tartu02
+
+porgandid = 0
+ringid = 6
+for i in range(ringid):
+    if (i + 1)% 2 == 0:
+        porgandid = porgandid + i + 1
+print(f"Saadavate porgandite koguarv on {porgandid}.")
