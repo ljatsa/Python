@@ -1,3 +1,4 @@
+#tartu01
 fail = open("rebased.txt", encoding="UTF-8")
 vastuvõetud = []
 

@@ -1,5 +1,4 @@
 #tartu05
-
 def pronksikarva_summa(jarjend):
     summa = 0
     for arv in jarjend:

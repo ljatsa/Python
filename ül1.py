@@ -1,6 +1,5 @@
 # kordamine
 # Lisett-Rosette 26.11.25
-
 inim = 60
 kohad = 40
 

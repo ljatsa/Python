@@ -4,7 +4,6 @@ def tervitus(n):
     print(f'Täna {n}. kord tervitada, mõtiskleb võõrustaja.')
     print('Külaline: "Tere, suur tänu kutse eest!"')
 
-
 kulaliste_arv = int(input("Sisestage külaliste arv: "))
 
 for i in range(1, kulaliste_arv + 1):
