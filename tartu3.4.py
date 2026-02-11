@@ -5,6 +5,9 @@ fail = open(valik, encoding="UTF-8")
 
 for rida in fail:
     print(nr,rida, end = "")
+    nr += 1
+otsus = int(input("Millist laulu tahad?"))
+
 
 
 
