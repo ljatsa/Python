@@ -16,4 +16,6 @@ for i in range(1,int(valik)):
     else:
         nr = 0
 
+turtle.goto(0,0)
+
 turtle.done()
