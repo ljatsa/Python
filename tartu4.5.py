@@ -1,4 +1,4 @@
-#tartu4.5
+#tartu05
 
 def pronksikarva_summa(jarjend):
     summa = 0

@@ -1,3 +1,4 @@
+#tartu03
 def eelarve(kutsutud_inimesed):
     maksimaalne_eelarve = kutsutud_inimesed * 10  * kutsutud_inimesed
     minimaalne_eelarve = kutsutud_inimesed * 10 * kutsutud_inimesed - 50 * kutsutud_inimesed

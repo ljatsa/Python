@@ -1,4 +1,4 @@
-#tartu4.4
+#tartu04
 def tervitus(n):
     print('Võõrustaja: "Tere!"')
     print(f'Täna {n}. kord tervitada, mõtiskleb võõrustaja.')

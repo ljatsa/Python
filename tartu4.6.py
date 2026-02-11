@@ -1,5 +1,4 @@
-#tartu4.6
-
+#tartu06
 def kuu_nimi(nr):
     kuud = [
         "jaanuar", "veebruar", "märts", "aprill", "mai", "juuni",
