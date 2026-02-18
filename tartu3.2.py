@@ -1,5 +1,4 @@
 #Tartu02
-
 porgandid = 0
 ringid = 6
 for i in range(ringid):

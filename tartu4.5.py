@@ -1,9 +1,18 @@
+#tartu05
+def pronksikarva_summa(jarjend):
+    summa = 0
+    for arv in jarjend:
+        if arv in (1, 2, 5):
+            summa += arv
+    return summa
 
-fail = open("mündid.txt", encoding="UTF-8")
-summa = 0
+failinimi = input("Sisesta failinimi: ")
 
-def pronksikarva_summa(rida):
-    print (rida)
+arvud = []
+with open(failinimi, encoding="UTF-8") as fail:
+    for rida in fail:
+        arvud.append(int(rida.strip()))
 
-if rida <=5:
-    summa += rida
+tulemus = pronksikarva_summa(arvud)
+
+print(f"Hoiupõrsasse läheb {tulemus} senti.")

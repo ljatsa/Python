@@ -1,5 +1,4 @@
 # tartu03
-
 fail = open("rebased.txt", encoding="UTF-8")
 
 for rida in fail:
