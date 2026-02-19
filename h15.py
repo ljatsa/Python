@@ -44,15 +44,16 @@ def kuva_punktid():
     turtle.goto(0, 260)
     turtle.color("black")
     turtle.write(f"Punktid: {punktid}", align="center", font=("Arial", 16, "normal"))
-
 def liigu_vasakule():
     x = ristkylik.xcor()
     if x > -280:
         ristkylik.setx(x - ristkyliku_kiirus)
+
 def liigu_paremale():
     x = ristkylik.xcor()
     if x < 280:
         ristkylik.setx(x + ristkyliku_kiirus)
+
 def kokkuporgub():
     global punktid
     ristkylik_x = ristkylik.xcor()
@@ -66,10 +67,11 @@ def kokkuporgub():
         punktid += 1
         kuva_punktid()
 
-        if punktid % 5 == 0:
-            global kiirus, ristkyliku_kiirus
-            kiirus += 2  
-            ristkyliku_kiirus += 5  
+
+    if punktid % 5 == 0:
+        global kiirus, ristkyliku_kiirus
+        kiirus += 2  
+        ristkyliku_kiirus += 5  
 def ring_liigu():
     global punktid
     ring.forward(kiirus)
