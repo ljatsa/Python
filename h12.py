@@ -48,21 +48,20 @@ def vv(s, r):
         """
     Docstring for vv
          """
-    uus = s - r
-    return uus
+uus = s - return uus
 
-    saldo = 100
+saldo = 100
 
-    print(saldo)
-    saldo = depo(saldo, 10)
-    saldo = depo(saldo, 100)
-    saldo = depo(saldo, 1000)
-    saldo = depo(saldo, 15)
-    saldo = depo(saldo, 1)
-    print(saldo)
-    saldo = vv (saldo, 100)
-    saldo = vv (saldo, 100)
-    saldo = vv (saldo, 100)
-    saldo = vv (saldo, 100)
-    saldo = vv (saldo, 100)
-    print(saldo)
+print(saldo)
+saldo = depo(saldo, 10)
+saldo = depo(saldo, 100)
+saldo = depo(saldo, 1000)
+saldo = depo(saldo, 15)
+saldo = depo(saldo, 1)
+print(saldo)
+saldo = vv (saldo, 100)
+saldo = vv (saldo, 100)
+saldo = vv (saldo, 100)
+saldo = vv (saldo, 100)
+saldo = vv (saldo, 100)
+print(saldo)
